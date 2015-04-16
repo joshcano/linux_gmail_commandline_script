@@ -7,7 +7,7 @@ This will email myself a file.
 josh@server# gmail document.doc user@aol.com
 This will email user@aol.com a file 
 
-##h2 Set up is pretty simple. 
+## Set up is pretty simple. 
 first git the repository 
 git clone https://github.com/joshcano/linux_gmail_commandline_script.git
 cd into the directory 
