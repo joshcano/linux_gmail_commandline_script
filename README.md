@@ -15,17 +15,17 @@ run bundler install
 
 Now we need to edit the "app.rb" file and insert your email and password to gmail. There are numerious ways to do this, but you can do this in the script itself.
 
-You need to edit line 4 and 5. 
-$user = "username@gmail.com"
-$pass = "userpassword"
+You need to edit line 4 and 5.   
+$user = "username@gmail.com"  
+$pass = "userpassword"  
 
-then save the file
+then save the file  
 
-Now we need to edit your .bashrc file. 
-This will allow us to use 'gmail document.doc' from our command line. 
+Now we need to edit your .bashrc file.   
+This will allow us to use 'gmail document.doc' from our command line.   
 
 
-josh@server# echo "alias gmail='ruby /path/to/app.rb'" >> ~/.bashrc
+josh@server# echo "alias gmail='ruby /path/to/app.rb'" >> ~/.bashrc  
 
-Restart your bash session and send yourself a file! 
+Restart your bash session and send yourself a file!   
 
