@@ -14,7 +14,7 @@ First, git the repository
     cd linux_gmail_commandline_script
     run bundler install
 
-Now we need to edit the "app.rb" file and insert your email and password to gmail. There are numerious ways to do this, but you can do this in the script itself.
+Now we need to edit the "app.rb" file and insert your email and password to gmail. There are numerous ways to do this, but you can do this in the script itself.
 
 You need to edit line 4 and 5.   
 
