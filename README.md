@@ -7,7 +7,7 @@ This will email myself a file.
 josh@server# gmail document.doc user@aol.com
 This will email user@aol.com a file 
 
-Set up is pretty simple. 
+##h2 Set up is pretty simple. 
 first git the repository 
 git clone https://github.com/joshcano/linux_gmail_commandline_script.git
 cd into the directory 
@@ -25,4 +25,7 @@ Now we need to edit your .bashrc file.
 This will allow us to use 'gmail document.doc' from our command line. 
 
 
+josh@server# echo "alias gmail='ruby /path/to/app.rb'" >> ~/.bashrc
+
+Restart your bash session and send yourself a file! 
 
