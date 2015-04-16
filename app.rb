@@ -2,8 +2,8 @@ require 'bundler'
 Bundler.setup 
 require 'gmail'
 
-$user = ""
-$pass = ""
+$user = "username@gmail.com"
+$pass = "userpassword"
 
 
 def shoot(email, attachment)
