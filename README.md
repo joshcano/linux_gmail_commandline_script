@@ -8,9 +8,9 @@ josh@server# gmail document.doc user@aol.com
 This will email user@aol.com a file 
 
 ## Set up is pretty simple. 
-first git the repository  
-git clone https://github.com/joshcano/linux_gmail_commandline_script.git
-cd into the directory 
+First, git the repository  
+git clone https://github.com/joshcano/linux_gmail_commandline_script.git  
+cd into the directory   
 run bundler install
 
 Now we need to edit the "app.rb" file and insert your email and password to gmail. There are numerious ways to do this, but you can do this in the script itself.
