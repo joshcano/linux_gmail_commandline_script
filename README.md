@@ -1,16 +1,16 @@
 # linux_gmail_commandline_script
 This is a very simple script I made to email myself or someone else a file with a bash terminal. 
 
+Sending an email to yourself. 
+
     josh@server# gmail document.doc  
     sent document.doc myself@gmail.com 
 
-This will email myself a file. 
+Sending an email to someone else. 
 
     josh@server# gmail document.doc user@aol.com  
     sent document.doc to user@aol.com
    
-This will email user@aol.com a file 
-
 ## Set up is pretty simple. 
 First, git the repository  
 

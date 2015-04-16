@@ -17,7 +17,7 @@ def shoot(email, attachment)
     add_file "#{attachment}"
   end
   gmail.logout
-  puts "sent #{attachment}"
+  puts "sent #{attachment} to #{email}"
 end
 
 args = ARGV
